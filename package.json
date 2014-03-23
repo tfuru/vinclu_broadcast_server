@@ -1,0 +1,30 @@
+{
+  "name": "broadcast_server",
+  "version": "0.0.0",
+  "description": "vinclu_broadcast_server.js",
+  "main": "vinclu_broadcast_server.js",
+  "dependencies": {
+    "benchmark": "~0.2.2",
+    "colors": "~0.6.2",
+    "debug": "~0.7.4",
+    "should": "~3.2.0-beta1",
+    "websocket.io": "^0.2.1",
+    "ws": "~0.4.20"
+  },
+  "devDependencies": {
+    "mocha": "~1.18.2"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tfuru/vinclu_broadcast_server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tfuru/vinclu_broadcast_server/issues"
+  },
+  "homepage": "https://github.com/tfuru/vinclu_broadcast_server"
+}
