@@ -60,7 +60,7 @@ var Page = function(){
     
     this.init = function(){
         //VincluSocketを作成
-        this._ws = new VincluSocket( $.proxy(this.onWsMessage,this),'glacial-springs-4863.herokuapp.com', 8899);
+        this._ws = new VincluSocket( $.proxy(this.onWsMessage,this),'glacial-springs-4863.herokuapp.com', 56778);
         
         //ボタンのイベント
         $("#btnStart").click($.proxy(this.clickBtnStart,this));
